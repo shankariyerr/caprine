@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu:300,400');
+
+html, body {
+font-family: 'Ubuntu', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  min-height: 100vh;  
+}
+h1 {
+  font-weight: 400;
+}
+h3 {
+  font-weight: 300;
+}
+.screenshot {
+  width: 300px;
+}
+html,body,.container, .columns {
+  min-height: 100vh;
+}
+.center {
+  text-align: center;
+  align-self: center;
+}
+@media only screen and (min-width: 68.75em) {
+  .screenshot {
+  width: 600px;
+  }
+}
+button,
+.button {
+  display: inline-block;
+    font-weight: 400;
+    line-height: 1.25;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .5rem 1rem;
+    font-size: 1rem;
+    border-radius: .25rem;
+    -webkit-transition: all .2s ease-in-out;
+    -o-transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
+        color: #fff;
+    background-color: #0084FF;
+    border-color: #0084FF;
+    text-decoration: none;
+}
+button:hover,
+.button:hover {
+  background-color: #000;
+  border-color: #000;
+  cursor: pointer;
+}
